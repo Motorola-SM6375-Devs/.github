@@ -4,6 +4,11 @@ This organization contains device specific & common sources for various SM6375 b
 
 Founded and maintained by [@AnandSuresh02](https://github.com/AnandSuresh02), feel free to contribute.
 
+If you like my work, feel free to donate:
+
+* UPI - anandzzz360@okhdfcbank
+* Buy me a Coffee - https://buymeacoffee.com/anandzzz36g
+
 ## Devices supported
 
 * Motorola Moto G34 5G - fogos
