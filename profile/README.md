@@ -76,8 +76,11 @@ Go to the ROM's manifest repo (android in case of LineageOS) and follow their in
 Eg:
 ```
 mkdir lineage
+
 cd lineage
+
 repo init -u https://github.com/LineageOS/android.git -b lineage-22.1 --git-lfs --depth=1
+
 repo sync
 ```
 If there occurs any error with checkouts during syncing, just do this once it's finished:
@@ -105,6 +108,7 @@ git clone https://dumps.tadiphone.dev/dumps/motorola/bangkk.git path/to/rom_dump
 Then run the extract script after giving it proper permissions:
 ```
 chmod +x device/motorola/bangkk/extract-files.sh
+
 bash device/motorola/bangkk/extract-files.sh path/to/rom_dump
 ```
 Once that's finished, you can view your vendor tree at vendor/motorola/bangkk
@@ -112,6 +116,7 @@ Once that's finished, you can view your vendor tree at vendor/motorola/bangkk
 Alternatively, you can just clone the already prepared and maintained vendor tree from [here](https://gitlab.com/Motorola-SM6375-Devs/)
 ```
 git clone https://gitlab.com/Motorola-SM6375-Devs/proprietary_vendor_motorola_bangkk.git vendor/motorola/bangkk
+
 git clone https://gitlab.com/Motorola-SM6375-Devs/proprietary_vendor_motorola_sm6375-common.git vendor/motorola/sm6375-common
 ```
 ### Note:
