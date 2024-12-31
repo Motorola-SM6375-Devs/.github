@@ -99,6 +99,12 @@ git clone https://github.com/Motorola-SM6375-Devs/android_device_motorola_sm6375
 
 git clone https://github.com/Motorola-SM6375-Devs/android_kernel_motorola_sm6375.git kernel/motorola/sm6375
 ```
+You'll have to clone hardware/motorola and system/qcom manually since we build some HALs based off of it.
+```
+git clone https://github.com/LineageOS/android_hardware_motorola.git hardware/motorola
+
+git clone https://github.com/LineageOS/android_system_qcom.git system/qcom
+```
 After this you can choose to prepare the vendor tree using the extract-files.sh script inside the device specific tree, given that you have cloned your device's stock firmware dump in your build environment.
 
 To prepare this, first clone the ROM dump to your build environment. For example, I'm cloning bangkk's dump to my build environment:
