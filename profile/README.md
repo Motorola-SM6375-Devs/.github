@@ -6,8 +6,9 @@ Founded and maintained by [@AnandSuresh02](https://github.com/AnandSuresh02), fe
 
 If you like my work, feel free to donate:
 
-* UPI - anandzzz360@okhdfcbank
+* UPI - anandzzz360@oksbi
 * Buy me a Coffee - https://buymeacoffee.com/anandzzz36g
+* PayPal - https://www.paypal.com/paypalme/anandsuresh02
 
 ## Devices supported
 
