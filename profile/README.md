@@ -114,9 +114,9 @@ git clone https://dumps.tadiphone.dev/dumps/motorola/bangkk.git path/to/rom_dump
 ```
 Then run the extract script after giving it proper permissions:
 ```
-chmod +x device/motorola/bangkk/extract-files.sh
+chmod +x device/motorola/bangkk/extract-files.py
 
-bash device/motorola/bangkk/extract-files.sh path/to/rom_dump
+./device/motorola/bangkk/extract-files.py path/to/rom_dump
 ```
 Once that's finished, you can view your vendor tree at vendor/motorola/bangkk
 
