@@ -154,6 +154,10 @@ Eg: For PixelOS,
 ```
 lunch aosp_bangkk-ap3a-userdebug
 ```
+### Note:
+
+The release variant "ap3a" can change with source updates such as security patch merges or QPR merges. Look that up accordingly in the ROM's source.
+
 You can enable CCACHE to enable caching and speeding up the build. Here I'm using 50GB for CCACHE.
 ```
 export USE_CCACHE=1 && ccache -M 50G
