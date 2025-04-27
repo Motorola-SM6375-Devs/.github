@@ -13,6 +13,7 @@ If you like my work, feel free to donate:
 ## Devices supported
 
 * Motorola Moto G34 5G - fogos
+* Motorola Moto G82 5G - rhodep
 * Motorola Moto G84 5G - bangkk
 
 ## Build Instructions
