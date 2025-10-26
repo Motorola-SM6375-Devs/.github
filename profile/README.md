@@ -31,6 +31,10 @@ The catch: Make sure you have atleast the following minimum specs:
 
 Lower specs than this could take longer time to build.
 
+### Note:
+
+You can still make use of RBE for a low spec device using this guide: https://fosson.top/aosp/remote-build-execution/
+
 To continue setting up the build environment, follow the instructions:
 
 ```bash
