@@ -23,7 +23,7 @@ If you like my work, feel free to donate:
 The catch: Make sure you have atleast the following minimum specs:
 
 * A 12-thread CPU.
-* 16GB of installed RAM.
+* Minimum 16GB of installed RAM, and that too requires swap.
 * A decent amount of disk space (250GB at least). Note that SSDs will build faster than HDDs.
 * A decent internet connection to sync source.
 * A Linux distro environment (Personally I recommend Ubuntu 24.04 LTS).
@@ -103,7 +103,7 @@ git clone https://github.com/Motorola-SM6375-Devs/android_kernel_motorola_sm6375
 ```
 You'll have to clone hardware/motorola manually since we build some HALs based off of it.
 ```
-git clone https://github.com/LineageOS/android_hardware_motorola.git hardware/motorola -b lineage-22.2
+git clone https://github.com/LineageOS/android_hardware_motorola.git hardware/motorola
 ```
 After this you can choose to prepare the vendor tree using the extract-files.sh script inside the device specific tree, given that you have cloned your device's stock firmware dump in your build environment.
 
@@ -145,13 +145,13 @@ First we need to include the environment setup.
 ```
 Now we need to lunch our target.
 ```
-lunch lineage_bangkk-ap3a-userdebug
+lunch lineage_bangkk-bp2a-userdebug
 ```
 Lunch target can vary depending on ROMs too.
 
 Eg: For PixelOS,
 ```
-lunch aosp_bangkk-ap3a-userdebug
+lunch aosp_bangkk-bp2a-userdebug
 ```
 ### Note:
 
