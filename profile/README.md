@@ -171,4 +171,8 @@ mka bacon -j12
 ```
 You can set different `-j` values depending on how many threads you want to use.
 
+### Note:
+
+If you're planning on making a signed build, you can make use of this guide: https://wiki.lineageos.org/signing_builds
+
 Happy building!!!
